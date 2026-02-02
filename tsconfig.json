@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",          
+    "module": "amd",             
+    "lib": ["ES2017", "DOM"],    
+    "outFile": "static/main.js", 
+    "rootDir": "static",         
+    "strict": true,              
+    "esModuleInterop": true,   
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["static/main.ts"], 
+  "exclude": ["node_modules"]
+}
